@@ -26,11 +26,3 @@ Person *create_person(const char *name, int age) {
 }
 
 
-void person_info(const char *role, char *name_out, int *age_out) {
-    printf("Enter name and age for %s: ", role);
-    scanf("%s %d", name_out, age_out);
-}
-
-int main(){
-
-}
